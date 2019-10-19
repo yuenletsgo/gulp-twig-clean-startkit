@@ -1,0 +1,35 @@
+@import 'breakpoint';
+
+/* Grid */
+$large: max-width 1200px;
+$pc: max-width 980px;
+$semi-pc: max-width 900px;
+$tablet: max-width 768px;
+$phone: max-width 640px;
+$w400: max-width 400px;
+
+/* color */
+// $red: #417505;
+// $red: #05828E;
+$red: #6E9143;
+// $hover-color: #417505;
+// $hover-color: #05828E;
+$hover-color: #6E9143;
+$grey: #f6f6f6;
+$light-grey: #bfbfbf;
+$soft-grey: #e6e6e6;
+$white-grey: #F6F6F6;
+$mid-grey: #65676d;
+$semi-dark-grey: #444;
+$btn: #eee;
+
+$light-blue: #F0F5F7;
+
+/* height */
+$headerH: 100px;
+$headerM: -78px;
+$headerH-m: 80px;
+$headerM-m: -80px;
+
+
+$input-h: 1.2rem;

@@ -1,0 +1,34 @@
+﻿@import '../setting/variables';
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body{
+  font: 100%/1.5em 'Catamaran',-apple-system,'Noto Sans TC', Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 300;
+  line-height: 1.5rem;
+  letter-spacing: 1.2px;
+  font-size: 15px;
+  overflow-x: hidden;
+  position: relative;
+  ::selection {
+	  background: #ecf1ca;
+  }
+}
+
+main {
+	position: relative;
+	padding-top: $headerH;
+	@include breakpoint($tablet) {
+		padding-top: $headerH-m;
+	}
+}
+
+article, aside, details, figcaption, figure, hgroup, menu, nav, section{
+  display: block;
+  font-family: 'Catamaran',-apple-system,'Noto Sans TC', sans-serif;
+}
