@@ -6,9 +6,8 @@ Template uses:
 - [Sass](http://sass-lang.com/)
 - [Autoprefixer](https://github.com/postcss/autoprefixer)
 - Merge and compress CSS and JavaScript
-- Combining images into a sprite
 - [Sass Guidelines](http://sass-guidelin.es/) An opinionated styleguide for writing sane, maintainable and scalable Sass.
-- [Breackpoint]
+- [Breackpoint](http://breakpoint-sass.com/)
 
 ## Get started
 Install packages:
